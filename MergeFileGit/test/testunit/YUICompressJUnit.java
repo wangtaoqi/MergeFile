@@ -20,7 +20,9 @@ import org.slf4j.LoggerFactory;
 import com.hylanda.resources.IOAssist;
 import com.yahoo.platform.yui.compressor.JavaScriptCompressor;
 
-/** @author 王淘气 */
+/** @author 王淘气 
+ * YUI压缩测试
+ * */
 public class YUICompressJUnit
 {
 	final Logger logger = LoggerFactory.getLogger ( this.getClass ( ) );
