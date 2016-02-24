@@ -1,0 +1,168 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MergeFile</groupId>
+	<artifactId>MergeFile</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<product.direcotry>${project.build.directory}/product</product.direcotry>
+	</properties>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+					<encoding>utf-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>
+								${product.direcotry}/libs
+							</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>false</addClasspath>
+							<classpathPrefix>dependency</classpathPrefix>
+							<mainClass>com.hylanda.merge.MergeManage</mainClass>
+						</manifest>
+						<manifestEntries>
+						<!--  
+							<Class-Path>dependency\*</Class-Path>
+						-->
+						</manifestEntries>
+					</archive>
+					<finalName>product/main/mergeFile</finalName>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	<resources>
+		<resource>
+		<directory>src/</directory>
+		</resource>
+		
+		<resource>
+			<directory>${basedir}</directory>
+			<includes>
+				<include>merge_config.js</include>
+			</includes>
+			<targetPath>${product.direcotry}</targetPath>
+		</resource>
+		
+		<resource>
+			<directory>${basedir}</directory>
+			<includes>
+				<include>startMergefile.bat</include>
+			</includes>
+			<targetPath>${product.direcotry}</targetPath>
+		</resource>
+		
+	</resources>
+	
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>hylanda.com.jar</groupId>
+			<artifactId>resource</artifactId>
+			<version>1.1</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/resource1.1.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yahoo.platform.yui</groupId>
+			<artifactId>yuicompressor</artifactId>
+			<!-- <version>2.3.6</version> -->
+			<!-- <version>2.4.8</version> -->
+			<version>2.4.8</version>
+		</dependency>
+		<!-- logback -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- apache comons IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<!-- apache commons beanutils -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+		<!-- apache commons codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.10</version>
+		</dependency>
+		<!-- commons lang -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
