@@ -15,7 +15,10 @@
 			分组类型：
 				文件名称为组名，不对文件大小进行分隔，fileMaxSize参数设置为-1即可
 			  资源文件配置数据类型为map（k-v) key:为文件存储的相对路径；value:是资源文件列表信息
-			  例如：{"js/merge/core.js":["js/source1.js","js/source2.js",...]}
+			  例如：
+			  	{
+					"js/merge/core.js" : ["js/source1.js", "js/source2.js", ...]
+				}
 		*可以为 outJsonFileName 的josn指定一个变量
 		*css、js文件支持压缩处理，压缩使用的是YUICommpress
 		*支持附加信息功能，在每个文件内容最后可以根据需要添加
