@@ -1,0 +1,1 @@
+java -cp libs\*;.\main\*  com.wangtaoqi.merge.MergeManage

@@ -1,0 +1,55 @@
+16:21:30.322 [main] INFO  com.wangtaoqi.merge.MergeFileSize - readMergeCofig Path:D:\Workspaces\eclipse-DecisionDiagram\MergeFile\target\product/merge_config.js
+16:21:30.325 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:summary/
+16:21:30.329 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/js/
+16:21:30.329 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/js/目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/js/]，建议更换其他目录
+16:21:30.332 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/js/mergeFileJsonPathList.js
+16:21:30.336 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/js/mergeFileJsonPathList.js目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/js/]，建议更换其他目录
+16:21:30.350 [main] WARN  com.wangtaoqi.merge.MergeManage - sourceFileListPath:g:/temp/file/mergeFileDemo/js/js/path_map.json内容为空
+16:21:30.356 [main] INFO  com.wangtaoqi.merge.MergeManage - 组名：[], 资源文件总数:0
+16:21:51.055 [main] INFO  com.wangtaoqi.merge.MergeFileSize - readMergeCofig Path:D:\Workspaces\eclipse-DecisionDiagram\MergeFile\target\product/merge_config.js
+16:21:51.059 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:summary/
+16:21:51.063 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/js/
+16:21:51.064 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/js/目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/js/]，建议更换其他目录
+16:21:51.066 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/js/mergeFileJsonPathList.js
+16:21:51.068 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/js/mergeFileJsonPathList.js目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/js/]，建议更换其他目录
+16:21:51.086 [main] WARN  com.wangtaoqi.merge.MergeManage - sourceFileListPath:g:/temp/file/mergeFileDemo/js/js/path_map.json内容为空
+16:21:51.092 [main] INFO  com.wangtaoqi.merge.MergeManage - 组名：[], 资源文件总数:0
+16:22:22.596 [main] INFO  com.wangtaoqi.merge.MergeFileSize - readMergeCofig Path:D:\Workspaces\eclipse-DecisionDiagram\MergeFile\target\product/merge_config.js
+16:22:22.599 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:summary/
+16:22:22.603 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/
+16:22:22.604 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo]，建议更换其他目录
+16:22:22.606 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js
+16:22:22.607 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo]，建议更换其他目录
+16:22:22.631 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/thridGroup_0
+16:22:22.634 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0,dispalySize:130 bytes
+16:22:22.645 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0,dispalySize:274 bytes
+16:22:22.654 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/appGroup_0
+16:22:22.657 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\appGroup_0,dispalySize:126 bytes
+16:22:22.664 [main] INFO  com.wangtaoqi.merge.MergeManage - 组名：[thridGroup, appGroup], 资源文件总数:3
+16:22:46.579 [main] INFO  com.wangtaoqi.merge.MergeFileSize - readMergeCofig Path:D:\Workspaces\eclipse-DecisionDiagram\MergeFile\target\product/merge_config.js
+16:22:46.583 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:summary/
+16:22:46.587 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/
+16:22:46.588 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/]，建议更换其他目录
+16:22:46.589 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js
+16:22:46.591 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/]，建议更换其他目录
+16:22:46.623 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/thridGroup_0
+16:22:46.689 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0,dispalySize:241 KB
+16:22:46.727 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0,dispalySize:510 KB
+16:22:46.730 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/appGroup_0
+16:22:46.733 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\appGroup_0,dispalySize:222 bytes
+16:22:46.740 [main] INFO  com.wangtaoqi.merge.MergeManage - 组名：[thridGroup, appGroup], 资源文件总数:3
+16:23:57.722 [main] INFO  com.wangtaoqi.merge.MergeFileSize - readMergeCofig Path:D:\Workspaces\eclipse-DecisionDiagram\MergeFile\target\product/merge_config.js
+16:23:57.726 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:summary/
+16:23:57.729 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/
+16:23:57.730 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/]，建议更换其他目录
+16:23:57.732 [main] INFO  com.wangtaoqi.merge.MergeManage - delete:g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js
+16:23:57.734 [main] WARN  com.wangtaoqi.merge.MergeManage - 忽略删除g:/temp/file/mergeFileDemo/js/mergeFileJsonPathList.js目录操作，因为当前目录包括sourceFileDirectory目录[g:/temp/file/mergeFileDemo/]，建议更换其他目录
+16:23:57.765 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/thridGroup_0.js
+16:23:57.773 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0.js,dispalySize:241 KB
+16:23:57.792 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\thridGroup_0.js,dispalySize:510 KB
+16:23:57.801 [main] WARN  c.w.m.u.c.JavaScriptCompressUtility - 没有获得JS压缩配置信息，文件:[g:\temp\file\mergeFileDemo\js\thridGroup_0.js]忽略压缩操作
+16:23:57.809 [main] WARN  c.w.m.u.c.JavaScriptCompressUtility - 没有获得JS压缩配置信息，文件:[g:\temp\file\mergeFileDemo\js\thridGroup_0.js]忽略压缩操作
+16:23:57.810 [main] INFO  com.wangtaoqi.merge.MergeFileSize - createNewFile:g:/temp/file/mergeFileDemo/js/appGroup_0.js
+16:23:57.812 [main] INFO  com.wangtaoqi.merge.MergeManage - writeFile:g:\temp\file\mergeFileDemo\js\appGroup_0.js,dispalySize:222 bytes
+16:23:57.813 [main] WARN  c.w.m.u.c.JavaScriptCompressUtility - 没有获得JS压缩配置信息，文件:[g:\temp\file\mergeFileDemo\js\appGroup_0.js]忽略压缩操作
+16:23:57.819 [main] INFO  com.wangtaoqi.merge.MergeManage - 组名：[thridGroup.js, appGroup.js], 资源文件总数:3
