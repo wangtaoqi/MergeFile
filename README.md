@@ -81,5 +81,5 @@
 			指定outJsonFileName文件中的json变量名
 		--yuiConfig:
 			yui配置文件，如果不想使用只需在变量名前添加一个$符号即可。
-		
+	app目录：MergeFile/MergeFileGit/target/product/	
 </pre>
